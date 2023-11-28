@@ -31,7 +31,7 @@
                 <RowDefinition/>
             </Grid.RowDefinitions>
 
-            <TextBlock Text="Chemia"
+            <TextBlock Text="C#"
                    VerticalAlignment="Center"
                    HorizontalAlignment="Left"
                    Foreground="White"
@@ -49,18 +49,34 @@
                              IsChecked="True"
                              Command="{Binding HomeViewCommand}"/>
 
-                <RadioButton Content="Discovery"
+                <RadioButton Content="basic info"
                              Height="50"
                              Foreground="White"
                              FontSize="14"
                              Style="{StaticResource MenuButtonTheme}"
-                             Command="{Binding DiscoveryViewCommand}"/>
+                             Command="{Binding BasicViewCommand}"/>
 
-                <RadioButton Content="Featured"
+                <RadioButton Content="Why c#?"
                              Height="50"
                              Foreground="White"
                              FontSize="14"
-                             Style="{StaticResource MenuButtonTheme}"/>
+                             Style="{StaticResource MenuButtonTheme}"
+                             Command="{Binding Why_ViewCommand}"/>
+
+
+                <RadioButton Content="What do we use c# for?"
+                            Height="50"
+                            Foreground="White"
+                            FontSize="14"
+                            Style="{StaticResource MenuButtonTheme}"
+                            Command="{Binding WhatViewCommand}"/>
+
+                <RadioButton Content="Sources"
+                            Height="50"
+                            Foreground="White"
+                            FontSize="14"
+                            Style="{StaticResource MenuButtonTheme}"
+                            Command="{Binding SourcesViewCommand}"/>
 
             </StackPanel>
 

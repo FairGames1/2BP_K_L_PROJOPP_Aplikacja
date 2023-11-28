@@ -8,10 +8,16 @@ namespace WpfApp1.MVVM.ViewModel
     {
 
         public RelayCommand HomeViewCommand { get; set; }
-        public RelayCommand DiscoveryViewCommand { get; set; }
+        public RelayCommand Why_ViewCommand { get; set; }
+        public RelayCommand BasicViewCommand { get; set; }
+        public RelayCommand WhatViewCommand { get; set; }
+        public RelayCommand SourcesViewCommand { get; set; }
 
         public HomeViewModel HomeVM { get; set; }
-        public DicsoveryViewModel DiscoveryVM { get; set; }
+        public WhyC_ViewModel WhyVM { get; set; }
+        public BasicViewModel BasicVM { get; set; }
+        public WhatViewModel WhatVM { get; set; }
+        public SourcesViewModel SourcesVM { get; set; }
 
         private object _currentView;
 
@@ -28,7 +34,10 @@ namespace WpfApp1.MVVM.ViewModel
         public MainViewModel()
         {
             HomeVM = new HomeViewModel();
-            DiscoveryVM = new DicsoveryViewModel();
+            WhyVM = new WhyC_ViewModel();
+            BasicVM = new BasicViewModel();
+            WhatVM = new WhatViewModel();
+            SourcesVM = new SourcesViewModel();
 
             CurrentView = HomeVM;
 
@@ -37,11 +46,43 @@ namespace WpfApp1.MVVM.ViewModel
                 CurrentView = HomeVM;
             });
 
-            DiscoveryVM = new DicsoveryViewModel();
 
-            DiscoveryViewCommand = new RelayCommand(o =>
+
+
+
+
+            WhyVM = new WhyC_ViewModel();
+
+            Why_ViewCommand = new RelayCommand(o =>
             {
-                 CurrentView = DiscoveryVM;
+                CurrentView = WhyVM;
+            });
+
+
+
+            BasicVM = new BasicViewModel();
+
+            BasicViewCommand = new RelayCommand(o =>
+            {
+                CurrentView = BasicVM;
+            });
+
+
+
+            WhatVM = new WhatViewModel();
+
+            WhatViewCommand = new RelayCommand(o =>
+            {
+                CurrentView = WhatVM;
+            });
+
+
+
+            SourcesVM = new SourcesViewModel();
+
+            SourcesViewCommand = new RelayCommand(o =>
+            {
+                CurrentView = SourcesVM;
             });
         }
     }

@@ -16,8 +16,20 @@
                 <view:HomeView/>
             </DataTemplate>
 
-            <DataTemplate DataType="{x:Type viewModel:DicsoveryViewModel}">
-                <view:DiscoveryView/>
+            <DataTemplate DataType="{x:Type viewModel:WhyC_ViewModel}">
+                <view:WhyC_View/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:BasicViewModel}">
+                <view:BasicView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:WhatViewModel}">
+                <view:WhatView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:SourcesViewModel}">
+                <view:SourcesView/>
             </DataTemplate>
 
         </ResourceDictionary>

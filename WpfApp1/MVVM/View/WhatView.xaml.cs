@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace WpfApp1.MVVM.View
 {
     /// <summary>
-    /// Interaction logic for DiscoveryView.xaml
+    /// Interaction logic for WhatView.xaml
     /// </summary>
-    public partial class DiscoveryView : UserControl
+    public partial class WhatView : UserControl
     {
-        public DiscoveryView()
+        public WhatView()
         {
             InitializeComponent();
         }

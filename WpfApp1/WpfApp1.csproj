@@ -69,11 +69,23 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="MVVM\View\DiscoveryView.xaml">
+    <Page Include="MVVM\View\BasicView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="MVVM\View\HomeView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MVVM\View\SourcesView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MVVM\View\WhatView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MVVM\View\WhyC#View.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -87,14 +99,26 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MVVM\ViewModel\DicsoveryViewModel.cs" />
+    <Compile Include="MVVM\ViewModel\BasicViewModel.cs" />
     <Compile Include="MVVM\ViewModel\HomeViewModel.cs" />
     <Compile Include="MVVM\ViewModel\MainViewModel.cs" />
-    <Compile Include="MVVM\View\DiscoveryView.xaml.cs">
-      <DependentUpon>DiscoveryView.xaml</DependentUpon>
+    <Compile Include="MVVM\ViewModel\SourcesViewModel.cs" />
+    <Compile Include="MVVM\ViewModel\WhatViewModel.cs" />
+    <Compile Include="MVVM\ViewModel\WhyC#ViewModel.cs" />
+    <Compile Include="MVVM\View\BasicView.xaml.cs">
+      <DependentUpon>BasicView.xaml</DependentUpon>
     </Compile>
     <Compile Include="MVVM\View\HomeView.xaml.cs">
       <DependentUpon>HomeView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MVVM\View\SourcesView.xaml.cs">
+      <DependentUpon>SourcesView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MVVM\View\WhatView.xaml.cs">
+      <DependentUpon>WhatView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MVVM\View\WhyC#View.xaml.cs">
+      <DependentUpon>WhyC#View.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
