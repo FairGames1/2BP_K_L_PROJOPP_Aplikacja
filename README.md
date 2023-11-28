@@ -8,4 +8,4 @@ Aplikacja działa w sposób prosty tj. naciśnij w dany dział aby otworzyły si
 
 na czym polega interakcja z użytkownikiem (opisać mechanizm)?
 
-Interakcja z użytkownikiem polega na tym, że jeśli użytkownik naciśnie na dany przycisk to pokaże mu się dana rzecz. np. jeżeli użytkownik naciśnie przycisk Jak zacząć to wyświetlają mu się informacje o tym co należy porbać itd.
+Interakcja z użytkownikiem polega na tym, że jeśli użytkownik naciśnie na dany przycisk to pokaże mu się dana rzecz. np. jeżeli użytkownik naciśnie przycisk Jak zacząć to wyświetlają mu się informacje o tym co należy pobrać itd.
