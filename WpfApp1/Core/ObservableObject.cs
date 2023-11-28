@@ -4,14 +4,27 @@ using System.Runtime.CompilerServices;
 
 namespace WpfApp1.Core
 {
-    class ObservableObject : INotifyPropertyChanged
+
+    class ObservableObject : INotifyPropertyChanged, IDisposable
     {
+        private bool _disposed;
+
+
         public event PropertyChangedEventHandler PropertyChanged;
 
-        protected void OnPropertyChanged([CallerMemberName] string name = null)
+        public void OnPropertyChanged([CallerMemberName] string name = null)
         {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
+            if (!_disposed)
+            {
+                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
+            }
         }
 
+
+        public void Dispose()
+        {
+
+            _disposed = true;
+        }
     }
 }
