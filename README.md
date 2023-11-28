@@ -1,6 +1,6 @@
 do czego służy aplikacja (cel)?:
 
-Aplikacja służy do uczenia się chemii. Celem tej aplikacji jest dodanie większości ważnych informacji tj.: tablica Mendelejeva, chemia nieorganiczna(kwasy, tlenki itp) i wiele innych rzeczy.
+Aplikacja służy do uczenia się o języku c#. Celem tej aplikacji jest dodanie większości ważnych informacji tj.: Jak zacząć, do czego służy i wiele innych rzeczy.
 
 jak działa (zasada)?:
 
@@ -8,4 +8,4 @@ Aplikacja działa w sposób prosty tj. naciśnij w dany dział aby otworzyły si
 
 na czym polega interakcja z użytkownikiem (opisać mechanizm)?
 
-Interakcja z użytkownikiem polega na tym, że jeśli użytkownik naciśnie na dany przycisk to pokaże mu się dana rzecz. np. jeżeli użytkownik naciśnie przycisk kwasy to wyświetlają mu się informacje o kwasach i jakie są kwasy.
+Interakcja z użytkownikiem polega na tym, że jeśli użytkownik naciśnie na dany przycisk to pokaże mu się dana rzecz. np. jeżeli użytkownik naciśnie przycisk Jak zacząć to wyświetlają mu się informacje o tym co należy porbać itd.
