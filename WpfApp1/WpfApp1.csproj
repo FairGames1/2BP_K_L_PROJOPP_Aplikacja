@@ -152,7 +152,7 @@
     <Folder Include="MVVM\Model\" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\c#.png" />
+    <Resource Include="Images\ctag.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

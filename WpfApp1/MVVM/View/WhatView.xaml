@@ -33,19 +33,32 @@
 
                 <Grid>
                     <StackPanel>
-                        <TextBlock Text="Witam w mojej aplikacji."
-                                  Foreground="White"
-                                  FontSize="25"
-                                  Margin="20,10,10,0"/>
+                        <TextBlock Text="Examples where we can use C#."
+        Foreground="White"
+        FontSize="20"
+        Margin="20,10,10,0"/>
+
+                        <TextBlock Text="1. Creating Desktop apps"
+        Foreground="White"
+        FontSize="20"
+        Margin="20,10,10,0"/>
+
+                        <TextBlock Text="2. Programming games"
+        Foreground="White"
+        FontSize="20"
+        Margin="20,10,10,0"/>
+
+                        <TextBlock Text="3.Mobile apps development"
+        Foreground="White"
+        FontSize="20"
+        Margin="20,10,10,0"/>
+
+                        <TextBlock Text="4.Web apps development"
+        Foreground="White"
+        FontSize="20"
+        Margin="20,10,10,0"/>
 
                     </StackPanel>
-
-                    <Image Width="94" 
-                          Height="94"
-                          Source="/Images/c#.png"
-                          HorizontalAlignment="Right"
-                          VerticalAlignment="Bottom"
-                          Margin="0,0,0,106"/>
 
                 </Grid>
             </Border>
@@ -63,14 +76,14 @@
                 </Border.Background>
 
                 <StackPanel>
-                    <TextBlock Text="Stworzona przez:"
+                    <TextBlock Text="Created by:"
           Foreground="White"
           FontSize="15"
           Margin="20,10,10,0"/>
 
-                    <TextBlock Text="Kacper Lachor uczeń kl.2bp"
+                    <TextBlock Text="Kacper Lachor student of class:2bp"
           Foreground="White"
-          FontSize="14"
+          FontSize="11"
           Margin="20,10,10,0"/>
                 </StackPanel>
 
@@ -86,7 +99,7 @@
                 </Style>
             </StackPanel.Resources>
 
-            <TextBlock Text="Most Watched"
+            <TextBlock Text=" "
                   Foreground="White"
                   FontSize="20"
                   HorizontalAlignment="Left"
@@ -107,7 +120,12 @@
                 <Border Width="150"
                        Height="150"
                        Background="#4eff91"
-                       CornerRadius="10"/>
+                       CornerRadius="10">
+                    <Image
+                          Source="/Images/ctag.png"
+                          Margin="113,-247,-167,197"
+                          />
+                </Border>
 
                 <Border Width="150"
                        Height="150"

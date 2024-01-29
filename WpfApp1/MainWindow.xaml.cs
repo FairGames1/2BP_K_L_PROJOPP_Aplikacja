@@ -54,5 +54,10 @@ namespace WpfApp1
                 isFullScreen = true;
             }
         }
+
+        private void RadioButton_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
