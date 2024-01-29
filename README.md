@@ -4,7 +4,7 @@ Aplikacja służy do uczenia się o języku c#. Celem tej aplikacji jest dodanie
 
 jak działa (zasada)?:
 
-Aplikacja działa w sposób prosty tj. naciśnij w dany dział aby otworzyły się porządane informacje albo wpisanie tego czego szukamy w polu do szukania. Tworzona jest w języku C# bez dodadkowych bibliotek.
+Aplikacja działa w sposób prosty tj. naciśnij w dany dział aby otworzyły się porządane informacje. Tworzona jest w języku C# bez dodadkowych bibliotek.
 
 na czym polega interakcja z użytkownikiem (opisać mechanizm)?
 
