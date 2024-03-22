@@ -24,5 +24,20 @@ namespace WpfApp1.MVVM.View
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://chat.openai.com/");
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.w3schools.com");
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.youtube.com/watch?v=PzP8mw7JUzI");
+        }
     }
 }

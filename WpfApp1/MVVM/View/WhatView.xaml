@@ -122,8 +122,8 @@
                        Background="#4eff91"
                        CornerRadius="10">
                     <Image
-                          Source="/Images/ctag.png"
-                          Margin="113,-247,-167,197"
+                        Source="/Images/ctag.png"
+                        Margin="113,-248,-168,194"
                           />
                 </Border>
 

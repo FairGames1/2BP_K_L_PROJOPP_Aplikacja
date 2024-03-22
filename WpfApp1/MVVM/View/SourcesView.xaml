@@ -87,15 +87,19 @@
 
             <StackPanel Orientation="Horizontal">
                 <Border Width="150"
-                       Height="150"
-                       Background="#844eff"
-                       CornerRadius="10"
-                       Margin="0"/>
+                    Height="150"
+                    Background="#844eff"
+                    CornerRadius="10"
+                    Margin="0">
+                    <Button Content="ChatGPT" Background="#844eff" HorizontalAlignment="Center" Height="53" Margin="0,44,0,0" VerticalAlignment="Top" Width="94" Click="Button_Click"/>
+                </Border>
 
                 <Border Width="150"
-                       Height="150"
-                       Background="#4e99ff"
-                       CornerRadius="10"/>
+                    Height="150"
+                    Background="#4e99ff"
+                    CornerRadius="10">
+                    <Button Content="W3Schools" Background="#4e99ff" HorizontalAlignment="Center" Height="53" Margin="0,44,0,0" VerticalAlignment="Top" Width="94" Click="Button_Click_1"/>
+                </Border>
 
                 <Border Width="150"
                        Height="150"
@@ -103,14 +107,16 @@
                        CornerRadius="10">
                     <Image
                           Source="/Images/ctag.png"
-                          Margin="114,-247,-166,196"
+                          Margin="113,-248,-168,194"
                           />
                 </Border>
 
                 <Border Width="150"
-                       Height="150"
-                       Background="#ecff4e"
-                       CornerRadius="10"/>
+                    Height="150"
+                    Background="#ecff4e"
+                    CornerRadius="10">
+                    <Button Content="YouTube" Background="#ecff4e" HorizontalAlignment="Center" Height="53" Margin="0,44,0,0" VerticalAlignment="Top" Width="94" Click="Button_Click_2"/>
+                </Border>
             </StackPanel>
 
         </StackPanel>

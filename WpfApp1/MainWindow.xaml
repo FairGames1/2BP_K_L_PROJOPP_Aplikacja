@@ -94,8 +94,8 @@
                             Content="{Binding CurrentView}"/>
 
 
-            <Ellipse Fill="Red" Width="10" Height="10" RenderTransformOrigin="54.541,0.772" Grid.Column="2" Margin="20,12,0,0" VerticalAlignment="Top" MouseLeftButtonDown="CloseApp"/>
-            <Ellipse Fill="Lime" Width="10" Height="10" RenderTransformOrigin="54.541,0.772" Grid.Column="2" Margin="0,12,20,0" VerticalAlignment="Top" MouseLeftButtonDown="MinimalizeApp"/>
+            <Ellipse Fill="Red" Width="10" Height="10" RenderTransformOrigin="54.541,0.772" Grid.Column="2" Margin="17,12,3,0" VerticalAlignment="Top" MouseLeftButtonDown="CloseApp"/>
+            <Ellipse Fill="Lime" Width="10" Height="10" RenderTransformOrigin="54.541,0.772" Grid.Column="2" Margin="2,12,18,0" VerticalAlignment="Top" MouseLeftButtonDown="MinimalizeApp"/>
 
 
 

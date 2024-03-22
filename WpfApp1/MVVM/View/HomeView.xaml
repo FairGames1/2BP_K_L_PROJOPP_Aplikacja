@@ -108,7 +108,7 @@
                         CornerRadius="10">
                     <Image
                            Source="/Images/ctag.png"
-                           Margin="114,-251,-165,194"
+                           Margin="113,-248,-168,194"
                            />
                 </Border>
 
