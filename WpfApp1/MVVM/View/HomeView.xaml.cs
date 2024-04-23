@@ -24,5 +24,10 @@ namespace WpfApp1.MVVM.View
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/FairGames1/2BP_K_L_PROJOPP_Aplikacja/releases");
+        }
     }
 }
