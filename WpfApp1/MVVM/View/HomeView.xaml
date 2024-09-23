@@ -60,17 +60,6 @@
                     </LinearGradientBrush>
                 </Border.Background>
 
-                <StackPanel>
-                    <TextBlock Text="Created by:"
-           Foreground="White"
-           FontSize="15"
-           Margin="20,10,10,0"/>
-
-                    <TextBlock Text="Kacper Lachor student of class: 2bp"
-           Foreground="White"
-           FontSize="11"
-           Margin="20,10,10,0"/>
-                </StackPanel>
 
             </Border>
 
